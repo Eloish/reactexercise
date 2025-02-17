@@ -1,0 +1,14 @@
+.card_container {
+    display: flex;
+    justify-content: flex-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+  .card {
+    padding: 2em;
+    border: 1px solid #ccc;
+    margin: 1em;
+    
+  }

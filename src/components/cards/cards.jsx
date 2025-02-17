@@ -1,10 +1,16 @@
-const Cards= () =>{
+const Cards= ({nom,prenom,age,bio,statut}) =>{
 
     return (
     <div className="card">
-        <h1>Card Title</h1>
+        <h3>{nom}{prenom}</h3>
         <div>
-            <p>Card Content</p>
+            <p>{bio}</p>
+            <ul>
+                <li>Age:{age}</li>
+                <li>Statut:{statut}</li>
+            </ul>
+        </div>
+        <div>
         </div>
     </div>
     )
