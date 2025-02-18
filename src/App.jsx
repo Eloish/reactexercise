@@ -12,15 +12,6 @@ function App() {
   return (
     <div>
       <Headers />
-      <div className="card_container">
-        {
-          users.map((user) => (
-            <Cards key={user.id} {...user}/>
-          ))
-          
-        }
-        
-      </div>
       <Footers />
     </div>
   )

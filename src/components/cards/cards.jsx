@@ -1,14 +1,11 @@
-const Cards= ({nom,prenom,age,bio,statut}) =>{
+const Cards= ({title,body}) =>{
 
     return (
     <div className="card">
-        <h3>{nom}{prenom}</h3>
+        <h3>{title}</h3>
         <div>
-            <p>{bio}</p>
-            <ul>
-                <li>Age:{age}</li>
-                <li>Statut:{statut}</li>
-            </ul>
+            <p>{body}</p>
+            
         </div>
         <div>
         </div>
